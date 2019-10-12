@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+  {% load my_extras %}
+  {% block body_block %}
+    <!-- <h1>Welcome to INDEX</h1> -->
+    <!-- <h2>index...........</h2> -->
+    <h1>{{ text|cut:"he" }}</h1>
+    <h1>{{ number|add:"20" }}</h1>
+
+  {% endblock %}
